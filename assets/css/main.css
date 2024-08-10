@@ -238,6 +238,7 @@ h2.major {
 }
 
 h2.major span {
+	border-radius: 5px;
 	background: #5f6160;
 	color: #d9e2dd;
 	position: relative;
@@ -247,7 +248,7 @@ h2.major span {
 }
 
 h2.major.dark span {
-    color: #b2b9b5;
+	color: #b2b9b5;
 }
 
 h3,
@@ -2591,11 +2592,11 @@ body {
 	position: relative;
 	background-image: url('images/overlay.png'), url('images/overlay.png'),
 		url('../../images/banner.jpg');
+	/* background-image: url('../../images/banner.jpg'); */
 	background-position: top left, top left, center center;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 	z-index: 1;
-	padding: 11em 0;
 }
 
 #banner .content {
@@ -2621,7 +2622,7 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #575d59;
+	color: #b9b9b9;
 	font-size: 1.35em;
 	margin: 0 0 1.25em 0;
 }
