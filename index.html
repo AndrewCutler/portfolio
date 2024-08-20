@@ -16,12 +16,11 @@
 	</head>
 	<body class="homepage is-preload" id="body">
 		<div id="page-wrapper">
-
-			<!-- TODO: get rid of dropdown and sidebars; duplicate No Sidebar for each section (about, portfolio, resume etc) -->
 			<nav id="nav">
 				<ul>
 					<li class="current"><a href="#body">Home</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about-me">About Me</a></li>
 					<li><a href="#resume">Resume</a></li>
 				</ul>
 			</nav>
@@ -30,7 +29,7 @@
 				<div class="content">
 					<h2>Andrew Cutler</h2>
 					<p>
-						Full stack engineer with five+ years experience
+						Senior full stack engineer with five+ years experience
 						building, testing, maintaining, improving and learning.
 					</p>
 				</div>
@@ -463,21 +462,91 @@
 									"
 								>
 									<div>
-										<ul style="list-style-type: none">
-											<li>JavaScript/TypeScript</li>
-											<li>HTML & CSS</li>
-											<li>.NET</li>
-											<li>AngularJS/Angular 2+</li>
-											<li>OpenAPI/Swagger</li>
+										<ul class="special">
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												JavaScript/TypeScript
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												HTML & CSS
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												.NET
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												AngularJS/Angular 2+
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												OpenAPI/Swagger
+											</li>
 										</ul>
 									</div>
 									<div>
-										<ul style="list-style-type: none">
-											<li>React</li>
-											<li>SQL Server</li>
-											<li>golang</li>
-											<li>Docker</li>
-											<li>git</li>
+										<ul class="special">
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												React
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												SQL Server
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												golang
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												Docker
+											</li>
+											<li
+												style="
+													display: block !important;
+													padding-top: 1em !important;
+												"
+											>
+												git
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -502,15 +571,22 @@
 														alt=""
 												/></a>
 												<h3>
-													<a href="#">A Subheading</a>
+													<a href="#"
+														>Must Go Faster</a
+													>
 												</h3>
 												<p>
-													Phasellus quam turpis,
-													feugiat sit amet ornare in,
-													a hendrerit in lectus
-													dolore. Praesent semper mod
-													quis eget sed etiam eu ante
-													risus.
+													A chess app specifically for
+													practicing time scrambles
+													(games with very little
+													time) starting from a random
+													valid chess position.
+													Connect to strangers over
+													the Internet and play in
+													real time. Built using web
+													sockets with a go backend
+													and vanilla JavaScript
+													frontend.
 												</p>
 											</section>
 										</div>
@@ -613,6 +689,14 @@
 								</div>
 							</section>
 						</div>
+						<div class="col-12" id="about-me">
+							<section class="box blog">
+								<h2 class="major">
+									<span> About Me </span>
+								</h2>
+								<div>text</div>
+							</section>
+						</div>
 						<div class="col-12" id="resume">
 							<section class="box blog">
 								<h2 class="major">
@@ -625,7 +709,10 @@
 										overflow: hidden;
 									"
 								>
-									<a href="" download="assets/resume.pdf">
+									<a
+										href="assets/resume.pdf"
+										download="Andrew Cutler resume.pdf"
+									>
 										<img
 											src="images/resume.png"
 											alt="Andrew Cutler Resume"
